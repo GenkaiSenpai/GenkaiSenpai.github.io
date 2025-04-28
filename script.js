@@ -1,3 +1,3 @@
 setTimeout(() => {
-    window.location.href = "http://127.0.0.1:5500/main/main.html";
+    window.location.href = "http://genkaisenpai.github.io/main/main.html";
 }, 10000);
