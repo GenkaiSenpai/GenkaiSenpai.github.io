@@ -1,10 +1,41 @@
-body{
-    background: black;
-    color: aliceblue;
-    font-size: 40px;
+body {
+    margin: 0;
+    background: #0d0d0d;
+    color: #d7aaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', monospace;
+    text-align: center;
 }
 
-div{
-    margin-top: 500px;
-    text-align: center;
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #3b3b3b;
+  border-top: 6px solid #cba6f7;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px #cba6f7;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+p {
+  font-size: 1rem;
+  color: #b18dd8;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 5px #a871c5;
 }

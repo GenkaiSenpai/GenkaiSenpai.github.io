@@ -1,0 +1,13 @@
+body{
+    background: black;
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+div{
+    text-align: center;
+}
