@@ -1,3 +1,4 @@
 setTimeout(() => {
-    window.location.href = "http://genkaisenpai.github.io/main/main.html";
+    const path = window.location.origin
+    window.location.href = path + "/main/main.html";
 }, 10000);
