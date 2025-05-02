@@ -1,4 +1,4 @@
 setTimeout(() => {
     const path = window.location.origin
-    window.location.href = path + "/main/main.html";
+    window.location.href = path + "/main";
 }, 10000);
