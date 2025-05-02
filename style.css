@@ -1,13 +1,13 @@
 body {
-    margin: 0;
-    background: #0d0d0d;
-    color: #d7aaff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Courier New', monospace;
-    text-align: center;
+  margin: 0;
+  background: #0d0d0d;
+  color: #d7aaff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Courier New', monospace;
+  text-align: center;
 }
 
 .loader-container {
