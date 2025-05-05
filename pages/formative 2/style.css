@@ -21,7 +21,23 @@ body {
     overflow: hidden;
 }
 
-.body {
-    position: relative;
-    left: 10%;
+@media screen and (min-width: 768px){
+    .body {
+        position: relative;
+        left: 10%;
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+        background: black;
+        color: aliceblue;
+    }
+    
+    .row {
+        background-color: #171717;
+        padding: 15px;
+        width: 50%;
+        border-radius: 10px;
+    }
 }
