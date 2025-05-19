@@ -9,6 +9,10 @@ const pages = [
     {
         page_name: "Testing",
         page_path: "../pages/testing"
+    },
+    {
+        page_name: "Games",
+        page_path: "./games"
     }
 ];
 
