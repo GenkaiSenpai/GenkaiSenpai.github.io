@@ -21,7 +21,7 @@ buttonx.addEventListener('click', function() {
     let p5 = (c1r2.value + c2r2.value + c3r2.value);
     let p6 = (c1r3.value + c2r3.value + c3r3.value);
     let p7 = (c1r1.value + c2r2.value + c3r3.value);
-    let p8 = (c3r3.value + c2r2.value + c1r1.value);
+    let p8 = (c3r1.value + c2r2.value + c1r3.value);
 
     if(p1 == 3 || p2 == 3 || p3 == 3 || p4 == 3 || p5 == 3 || p6 == 3 || p7 == 3 || p8 == 3){
         announce.innerHTML = "Player 1 Won!";
@@ -37,7 +37,6 @@ buttonx.addEventListener('click', function() {
         flag = true;
         return;
     }
-    console.log(p1, " ", p2, " ", p3);
 })
 
 c1r1.addEventListener('click', function() {
