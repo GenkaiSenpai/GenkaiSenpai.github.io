@@ -4,7 +4,7 @@ body {
   background: #121218;
   overflow: hidden;
   color: white;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .main-container {
@@ -18,17 +18,34 @@ body {
   transform: translate(-50%, -50%);
 }
 
+input[type=text], input[type=tel], input[type=email] {
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+
+textarea {
+  height: 120px;
+  width: 500px;
+  font-size: 20px;
+}
+
+
 .iti__selected-dial-code {
   color: black;
-  font-size: 10px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
 }
 
 .iti__flag {
-  height: 10px;
+  height: 20px;
 }
 
 .iti {
-  font-size: 10px;
+  font-size: 20px;
   color: black;
   height: 10%;
 }
