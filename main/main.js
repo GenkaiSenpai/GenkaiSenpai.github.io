@@ -13,6 +13,14 @@ const pages = [
     {
         page_name: "Tic Tac Toe",
         page_path: "./games/tictactoe"
+    },
+    {
+        page_name: "S1 Activity #1",
+        page_path: "../pages/summative 1/activity 1"
+    },
+    {
+        page_name: "S1 Activity #2",
+        page_path: "../pages/summative 1/activity 2"
     }
 ];
 
