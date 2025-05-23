@@ -11,8 +11,8 @@ const pages = [
         page_path: "../pages/testing"
     },
     {
-        page_name: "Games",
-        page_path: "./games"
+        page_name: "Tic Tac Toe",
+        page_path: "./games/tictactoe"
     }
 ];
 
