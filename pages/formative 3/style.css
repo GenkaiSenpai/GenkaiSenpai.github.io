@@ -18,7 +18,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-input[type=text], input[type=tel], input[type=email], #gender {
+input[type=text], input[type=tel], input[type=email] {
   height: 30px;
   width: 300px;
   font-size: 20px;
@@ -27,6 +27,12 @@ input[type=text], input[type=tel], input[type=email], #gender {
 input[type=address] {
   height: 30px;
   width: 700px;
+  font-size: 20px;
+}
+
+#gender {
+  height: 40px;
+  width: 300px;
   font-size: 20px;
 }
 
