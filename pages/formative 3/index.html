@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenkaiSenpai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css" />
+</head>
+<body>
+    <div class="orb-container" id="orbContainer"></div>
+    <div class="main-container">
+        <form id="contactForm">
+            <label for="name">Name*</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="gender">Gender*</label><br>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select><br><br>
+            <label for="contact">Contact No.*</label><br>
+            <input type="tel" id="phone" name="phone" style="padding-left: 20px;" required><br><br>
+            <label for="address">Home Address*</label><br>
+            <input type="address" id="address" name="address" required><br><br>
+            <label for="course">Preferred Degree Program*</label><br>
+            <select id="course" name="course" required>
+                <option value="civil-engineer">Bachelor of Science in Civil Engineering</option>
+                <option value="computer-engineer">Bachelor of Science in Computer Engineering</option>
+                <option value="electrical-engineer">Bachelor of Science in Electrical Engineering</option>
+                <option value="electronics-engineer">Bachelor of Science in Electronics Engineering</option>
+                <option value="mechanical-engineer">Bachelor of Science in Mechanical Engineering</option>
+                <option value="bs-cem">Bachelor of Science in Construction Engineering Management</option>
+                <option value="bs-fte">Bachelor of Science in Financial Technology Engineering</option>
+                <option value="bs-cybersecurity">Bachelor of Science in Cybersecurity</option>
+                <option value="bscs-se">Bachelor of Science in Computer Science with specialization in Software Engineering</option>
+                <option value="bscs-ai">Bachelor of Science in Computer Science with specialization in Artificial Intelligence</option>
+                <option value="bscs-ds">Bachelor of Science in Computer Science with Specialization in Data Science</option>
+                <option value="bsit-ba">Bachelor of Science in Information Technology with Specialization in Business Analytics</option>
+                <option value="bsit-cs">Bachelor of Science in Information Technology with Specialization in Cybersecurity</option>
+                <option value="bsit-agd">Bachelor of Science in Information Technology with specialization in Animation and Game Development</option>
+                <option value="bsit-wma">Bachelor of Science in Information Technology with specialization in Web and Mobile Applications</option>
+                <option value="bma-dfa">Bachelor of Multimedia Arts with specialization in Digital Film and Animation</option>
+                <option value="bdmm">Bachelor in Digital Marketing Management</option>
+            </select><br><br>
+            <p style="font-size: 12px; color: red;">
+                required field *
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="animation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #121218;
+  overflow: hidden;
+  color: white;
+  font-size: 25px;
+}
+
+.main-container {
+  padding: 2%;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.195);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type=text], input[type=tel], input[type=email], #gender {
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+
+input[type=address] {
+  height: 30px;
+  width: 700px;
+  font-size: 20px;
+}
+
+#course {
+  height: 30px;
+  width: 700px;
+  font-size: 20px;
+}
+
+textarea {
+  height: 120px;
+  width: 500px;
+  font-size: 20px;
+}
+
+
+.iti__selected-dial-code {
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.iti__flag {
+  height: 20px;
+}
+
+.iti {
+  font-size: 20px;
+  color: black;
+  height: 10%;
+}
+
+.orb-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.orb {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(246, 237, 255, 0.479) 0%, rgba(64, 49, 77, 0.651) 70%);
+  border-radius: 50%;
+  animation: float infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-100px) scale(3.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
