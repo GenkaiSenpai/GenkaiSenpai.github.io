@@ -1,0 +1,47 @@
+body {
+  background: #121218;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+input, select {
+  font-size: 18px !important;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+  color: black;
+}
+
+.orb-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(246, 237, 255, 0.479) 0%, rgba(64, 49, 77, 0.651) 70%);
+  border-radius: 50%;
+  animation: float infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-100px) scale(3.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}

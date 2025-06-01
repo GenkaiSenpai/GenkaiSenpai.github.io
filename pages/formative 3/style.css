@@ -4,7 +4,7 @@ body {
   background: #121218;
   overflow: hidden;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .main-container {
@@ -18,26 +18,26 @@ body {
   transform: translate(-50%, -50%);
 }
 
-input[type=text], input[type=tel], input[type=email] {
-  height: 30px;
+input[type=text], input[type=tel], input[type=email], input[type=date] {
+  height: 25px;
   width: 300px;
   font-size: 20px;
 }
 
 input[type=address] {
-  height: 30px;
+  height: 25px;
   width: 700px;
   font-size: 20px;
 }
 
 #gender {
-  height: 40px;
+  height: 30px;
   width: 300px;
   font-size: 20px;
 }
 
 #course {
-  height: 40px;
+  height: 30px;
   width: 700px;
   font-size: 20px;
 }
