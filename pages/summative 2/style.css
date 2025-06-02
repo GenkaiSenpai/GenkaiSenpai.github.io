@@ -1,0 +1,59 @@
+body {
+    background: black;
+    color: aliceblue;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+    border-bottom: 2px solid #ffffff;
+    width: 80%;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+table {
+    text-align: left;
+}
+
+th {
+        width: 70%;
+}
+
+@media screen and (min-width: 768px){
+    .body {
+        position: relative;
+        left: 10%;
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+        background: black;
+        color: aliceblue;
+    }
+
+    .image {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    .row {
+        background-color: #171717;
+        padding: 15px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    
+}

@@ -29,6 +29,10 @@ const pages = [
     {
         page_name: "Formative 4",
         page_path: "../pages/formative 4"
+    },
+    {
+        page_name: "Summative 2",
+        page_path: "../pages/summative 2"
     }
 ];
 
