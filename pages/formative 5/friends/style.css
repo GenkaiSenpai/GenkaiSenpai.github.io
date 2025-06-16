@@ -1,0 +1,36 @@
+.mask1 {
+    -webkit-mask-image: url(bg_ais.png);
+    mask-image: url(bg_ais.png);
+    mask-repeat: no-repeat;
+}
+
+.container {
+    padding-top: 40%;
+}
+
+body {
+    background-color: rgb(30, 21, 34);
+    justify-content: center;
+    text-align: center;
+    color: rgb(241, 128, 128);
+    font-size: 20px;
+}
+
+.ais {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.div-1 {
+    border-top: 2px solid #ffffff;
+}
+
+.main {
+    margin: 10%;
+    background-color: #52515179;
+}
+
+.arrange {
+    padding-left: 35%;
+}
